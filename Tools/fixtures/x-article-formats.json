@@ -1,0 +1,997 @@
+{
+ "https://api.fxtwitter.com/2/thread/1234567890": {
+  "code": 200,
+  "status": {
+   "type": "status",
+   "url": "https://x.com/tester/status/1234567890",
+   "id": "1234567890",
+   "text": "Teaser https://x.com/i/article/555",
+   "author": {
+    "screen_name": "tester",
+    "name": "Test Author",
+    "id": "1"
+   },
+   "created_at": "Mon Mar 23 14:08:00 +0000 2026",
+   "created_timestamp": 1774274880,
+   "lang": "en",
+   "media": {},
+   "article": {
+    "id": "555",
+    "title": "All Formats Article",
+    "preview_text": "Preview text",
+    "created_at": "2026-03-23T14:08:00.000Z",
+    "cover_media": {
+     "media_info": {
+      "__typename": "ApiImage",
+      "original_img_url": "https://pbs.twimg.com/media/cover.jpg",
+      "original_img_width": 1600,
+      "original_img_height": 900
+     }
+    },
+    "content": {
+     "blocks": [
+      {
+       "key": "a",
+       "type": "unstyled",
+       "text": "Intro with bold, italic, strike and both overlapping words here.",
+       "depth": 0,
+       "inlineStyleRanges": [
+        {
+         "offset": 11,
+         "length": 4,
+         "style": "Bold"
+        },
+        {
+         "offset": 17,
+         "length": 6,
+         "style": "Italic"
+        },
+        {
+         "offset": 25,
+         "length": 6,
+         "style": "Strikethrough"
+        },
+        {
+         "offset": 41,
+         "length": 11,
+         "style": "Bold"
+        },
+        {
+         "offset": 46,
+         "length": 6,
+         "style": "Italic"
+        }
+       ],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "b",
+       "type": "header-one",
+       "text": "Section heading",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "c",
+       "type": "unstyled",
+       "text": "🚀 Launch day is 今天 with emoji 🎉 bold after.",
+       "depth": 0,
+       "inlineStyleRanges": [
+        {
+         "offset": 2,
+         "length": 6,
+         "style": "Bold"
+        },
+        {
+         "offset": 32,
+         "length": 4,
+         "style": "Bold"
+        }
+       ],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "d",
+       "type": "unstyled",
+       "text": "Read the docs, ping @jack, see #swift and $TSLA. Plain snake_case and *stars* stay literal.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 0,
+         "offset": 0,
+         "length": 4
+        }
+       ],
+       "data": {
+        "urls": [
+         {
+          "fromIndex": 9,
+          "toIndex": 13,
+          "text": "https://example.com/docs"
+         }
+        ],
+        "mentions": [
+         {
+          "fromIndex": 20,
+          "toIndex": 25,
+          "text": "jack"
+         }
+        ],
+        "hashtags": [
+         {
+          "fromIndex": 31,
+          "toIndex": 37,
+          "text": "swift"
+         }
+        ],
+        "cashtags": [
+         {
+          "fromIndex": 42,
+          "toIndex": 47,
+          "text": "TSLA"
+         }
+        ]
+       }
+      },
+      {
+       "key": "e",
+       "type": "header-two",
+       "text": "Sub heading",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "f",
+       "type": "ordered-list-item",
+       "text": "First step",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "g",
+       "type": "ordered-list-item",
+       "text": "Second step with nested bullets",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "h",
+       "type": "unordered-list-item",
+       "text": "nested bullet",
+       "depth": 1,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "i",
+       "type": "unordered-list-item",
+       "text": "deeper bullet",
+       "depth": 2,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "j",
+       "type": "ordered-list-item",
+       "text": "Third step",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "k",
+       "type": "unordered-list-item",
+       "text": "Separate bullet list",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "l",
+       "type": "blockquote",
+       "text": "A quote line one\nand a soft break.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "m",
+       "type": "blockquote",
+       "text": "Second quote paragraph.",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "n",
+       "type": "atomic",
+       "text": " ",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 1,
+         "offset": 0,
+         "length": 1
+        }
+       ],
+       "data": {}
+      },
+      {
+       "key": "o",
+       "type": "atomic",
+       "text": " ",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 2,
+         "offset": 0,
+         "length": 1
+        }
+       ],
+       "data": {}
+      },
+      {
+       "key": "p",
+       "type": "atomic",
+       "text": " ",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 3,
+         "offset": 0,
+         "length": 1
+        }
+       ],
+       "data": {}
+      },
+      {
+       "key": "q",
+       "type": "atomic",
+       "text": " ",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 5,
+         "offset": 0,
+         "length": 1
+        }
+       ],
+       "data": {}
+      },
+      {
+       "key": "r",
+       "type": "code-block",
+       "text": "let x = 1",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "s",
+       "type": "code-block",
+       "text": "print(x)",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "t",
+       "type": "atomic",
+       "text": " ",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 6,
+         "offset": 0,
+         "length": 1
+        }
+       ],
+       "data": {}
+      },
+      {
+       "key": "u",
+       "type": "atomic",
+       "text": " ",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [
+        {
+         "key": 7,
+         "offset": 0,
+         "length": 1
+        }
+       ],
+       "data": {}
+      },
+      {
+       "key": "v",
+       "type": "unstyled",
+       "text": "",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "w",
+       "type": "unstyled",
+       "text": "1. Not a list and # not a heading",
+       "depth": 0,
+       "inlineStyleRanges": [],
+       "entityRanges": [],
+       "data": {}
+      },
+      {
+       "key": "x",
+       "type": "unstyled",
+       "text": "Ends with inline code",
+       "depth": 0,
+       "inlineStyleRanges": [
+        {
+         "offset": 17,
+         "length": 4,
+         "style": "CODE"
+        }
+       ],
+       "entityRanges": [],
+       "data": {}
+      }
+     ],
+     "entityMap": [
+      {
+       "key": "0",
+       "value": {
+        "type": "LINK",
+        "mutability": "Mutable",
+        "data": {
+         "url": "https://example.com/read"
+        }
+       }
+      },
+      {
+       "key": "1",
+       "value": {
+        "type": "MARKDOWN",
+        "mutability": "Mutable",
+        "data": {
+         "entityKey": "1",
+         "markdown": "```swift\nlet greeting = \"hi\"\n```"
+        }
+       }
+      },
+      {
+       "key": "2",
+       "value": {
+        "type": "MEDIA",
+        "mutability": "Immutable",
+        "data": {
+         "caption": "A photo caption",
+         "mediaItems": [
+          {
+           "localMediaId": "1",
+           "mediaCategory": "DraftTweetImage",
+           "mediaId": "m1"
+          }
+         ]
+        }
+       }
+      },
+      {
+       "key": "3",
+       "value": {
+        "type": "MEDIA",
+        "mutability": "Immutable",
+        "data": {
+         "mediaItems": [
+          {
+           "localMediaId": "2",
+           "mediaCategory": "AmplifyVideo",
+           "mediaId": "v1"
+          }
+         ]
+        }
+       }
+      },
+      {
+       "key": "5",
+       "value": {
+        "type": "TWEET",
+        "mutability": "Immutable",
+        "data": {
+         "tweetId": "20"
+        }
+       }
+      },
+      {
+       "key": "6",
+       "value": {
+        "type": "DIVIDER",
+        "mutability": "Immutable",
+        "data": {}
+       }
+      },
+      {
+       "key": "7",
+       "value": {
+        "type": "TWEET",
+        "mutability": "Immutable",
+        "data": {
+         "tweetId": "999"
+        }
+       }
+      }
+     ]
+    },
+    "media_entities": [
+     {
+      "media_id": "m1",
+      "media_info": {
+       "__typename": "ApiImage",
+       "original_img_url": "https://pbs.twimg.com/media/photo1.jpg",
+       "original_img_width": 1200,
+       "original_img_height": 800
+      }
+     },
+     {
+      "media_id": "v1",
+      "media_info": {
+       "__typename": "ApiVideo",
+       "preview_image": {
+        "original_img_url": "https://pbs.twimg.com/amplify_video_thumb/v1.jpg"
+       },
+       "variants": [
+        {
+         "content_type": "application/x-mpegURL",
+         "url": "https://video.twimg.com/v1.m3u8"
+        },
+        {
+         "bit_rate": 832000,
+         "content_type": "video/mp4",
+         "url": "https://video.twimg.com/v1_low.mp4"
+        },
+        {
+         "bit_rate": 2176000,
+         "content_type": "video/mp4",
+         "url": "https://video.twimg.com/v1_high.mp4"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "thread": [
+   {
+    "type": "status",
+    "url": "https://x.com/tester/status/1234567890",
+    "id": "1234567890",
+    "text": "Teaser https://x.com/i/article/555",
+    "author": {
+     "screen_name": "tester",
+     "name": "Test Author",
+     "id": "1"
+    },
+    "created_at": "Mon Mar 23 14:08:00 +0000 2026",
+    "created_timestamp": 1774274880,
+    "lang": "en",
+    "media": {},
+    "article": {
+     "id": "555",
+     "title": "All Formats Article",
+     "preview_text": "Preview text",
+     "created_at": "2026-03-23T14:08:00.000Z",
+     "cover_media": {
+      "media_info": {
+       "__typename": "ApiImage",
+       "original_img_url": "https://pbs.twimg.com/media/cover.jpg",
+       "original_img_width": 1600,
+       "original_img_height": 900
+      }
+     },
+     "content": {
+      "blocks": [
+       {
+        "key": "a",
+        "type": "unstyled",
+        "text": "Intro with bold, italic, strike and both overlapping words here.",
+        "depth": 0,
+        "inlineStyleRanges": [
+         {
+          "offset": 11,
+          "length": 4,
+          "style": "Bold"
+         },
+         {
+          "offset": 17,
+          "length": 6,
+          "style": "Italic"
+         },
+         {
+          "offset": 25,
+          "length": 6,
+          "style": "Strikethrough"
+         },
+         {
+          "offset": 41,
+          "length": 11,
+          "style": "Bold"
+         },
+         {
+          "offset": 46,
+          "length": 6,
+          "style": "Italic"
+         }
+        ],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "b",
+        "type": "header-one",
+        "text": "Section heading",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "c",
+        "type": "unstyled",
+        "text": "🚀 Launch day is 今天 with emoji 🎉 bold after.",
+        "depth": 0,
+        "inlineStyleRanges": [
+         {
+          "offset": 2,
+          "length": 6,
+          "style": "Bold"
+         },
+         {
+          "offset": 32,
+          "length": 4,
+          "style": "Bold"
+         }
+        ],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "d",
+        "type": "unstyled",
+        "text": "Read the docs, ping @jack, see #swift and $TSLA. Plain snake_case and *stars* stay literal.",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 0,
+          "offset": 0,
+          "length": 4
+         }
+        ],
+        "data": {
+         "urls": [
+          {
+           "fromIndex": 9,
+           "toIndex": 13,
+           "text": "https://example.com/docs"
+          }
+         ],
+         "mentions": [
+          {
+           "fromIndex": 20,
+           "toIndex": 25,
+           "text": "jack"
+          }
+         ],
+         "hashtags": [
+          {
+           "fromIndex": 31,
+           "toIndex": 37,
+           "text": "swift"
+          }
+         ],
+         "cashtags": [
+          {
+           "fromIndex": 42,
+           "toIndex": 47,
+           "text": "TSLA"
+          }
+         ]
+        }
+       },
+       {
+        "key": "e",
+        "type": "header-two",
+        "text": "Sub heading",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "f",
+        "type": "ordered-list-item",
+        "text": "First step",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "g",
+        "type": "ordered-list-item",
+        "text": "Second step with nested bullets",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "h",
+        "type": "unordered-list-item",
+        "text": "nested bullet",
+        "depth": 1,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "i",
+        "type": "unordered-list-item",
+        "text": "deeper bullet",
+        "depth": 2,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "j",
+        "type": "ordered-list-item",
+        "text": "Third step",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "k",
+        "type": "unordered-list-item",
+        "text": "Separate bullet list",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "l",
+        "type": "blockquote",
+        "text": "A quote line one\nand a soft break.",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "m",
+        "type": "blockquote",
+        "text": "Second quote paragraph.",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "n",
+        "type": "atomic",
+        "text": " ",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 1,
+          "offset": 0,
+          "length": 1
+         }
+        ],
+        "data": {}
+       },
+       {
+        "key": "o",
+        "type": "atomic",
+        "text": " ",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 2,
+          "offset": 0,
+          "length": 1
+         }
+        ],
+        "data": {}
+       },
+       {
+        "key": "p",
+        "type": "atomic",
+        "text": " ",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 3,
+          "offset": 0,
+          "length": 1
+         }
+        ],
+        "data": {}
+       },
+       {
+        "key": "q",
+        "type": "atomic",
+        "text": " ",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 5,
+          "offset": 0,
+          "length": 1
+         }
+        ],
+        "data": {}
+       },
+       {
+        "key": "r",
+        "type": "code-block",
+        "text": "let x = 1",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "s",
+        "type": "code-block",
+        "text": "print(x)",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "t",
+        "type": "atomic",
+        "text": " ",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 6,
+          "offset": 0,
+          "length": 1
+         }
+        ],
+        "data": {}
+       },
+       {
+        "key": "u",
+        "type": "atomic",
+        "text": " ",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [
+         {
+          "key": 7,
+          "offset": 0,
+          "length": 1
+         }
+        ],
+        "data": {}
+       },
+       {
+        "key": "v",
+        "type": "unstyled",
+        "text": "",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "w",
+        "type": "unstyled",
+        "text": "1. Not a list and # not a heading",
+        "depth": 0,
+        "inlineStyleRanges": [],
+        "entityRanges": [],
+        "data": {}
+       },
+       {
+        "key": "x",
+        "type": "unstyled",
+        "text": "Ends with inline code",
+        "depth": 0,
+        "inlineStyleRanges": [
+         {
+          "offset": 17,
+          "length": 4,
+          "style": "CODE"
+         }
+        ],
+        "entityRanges": [],
+        "data": {}
+       }
+      ],
+      "entityMap": [
+       {
+        "key": "0",
+        "value": {
+         "type": "LINK",
+         "mutability": "Mutable",
+         "data": {
+          "url": "https://example.com/read"
+         }
+        }
+       },
+       {
+        "key": "1",
+        "value": {
+         "type": "MARKDOWN",
+         "mutability": "Mutable",
+         "data": {
+          "entityKey": "1",
+          "markdown": "```swift\nlet greeting = \"hi\"\n```"
+         }
+        }
+       },
+       {
+        "key": "2",
+        "value": {
+         "type": "MEDIA",
+         "mutability": "Immutable",
+         "data": {
+          "caption": "A photo caption",
+          "mediaItems": [
+           {
+            "localMediaId": "1",
+            "mediaCategory": "DraftTweetImage",
+            "mediaId": "m1"
+           }
+          ]
+         }
+        }
+       },
+       {
+        "key": "3",
+        "value": {
+         "type": "MEDIA",
+         "mutability": "Immutable",
+         "data": {
+          "mediaItems": [
+           {
+            "localMediaId": "2",
+            "mediaCategory": "AmplifyVideo",
+            "mediaId": "v1"
+           }
+          ]
+         }
+        }
+       },
+       {
+        "key": "5",
+        "value": {
+         "type": "TWEET",
+         "mutability": "Immutable",
+         "data": {
+          "tweetId": "20"
+         }
+        }
+       },
+       {
+        "key": "6",
+        "value": {
+         "type": "DIVIDER",
+         "mutability": "Immutable",
+         "data": {}
+        }
+       },
+       {
+        "key": "7",
+        "value": {
+         "type": "TWEET",
+         "mutability": "Immutable",
+         "data": {
+          "tweetId": "999"
+         }
+        }
+       }
+      ]
+     },
+     "media_entities": [
+      {
+       "media_id": "m1",
+       "media_info": {
+        "__typename": "ApiImage",
+        "original_img_url": "https://pbs.twimg.com/media/photo1.jpg",
+        "original_img_width": 1200,
+        "original_img_height": 800
+       }
+      },
+      {
+       "media_id": "v1",
+       "media_info": {
+        "__typename": "ApiVideo",
+        "preview_image": {
+         "original_img_url": "https://pbs.twimg.com/amplify_video_thumb/v1.jpg"
+        },
+        "variants": [
+         {
+          "content_type": "application/x-mpegURL",
+          "url": "https://video.twimg.com/v1.m3u8"
+         },
+         {
+          "bit_rate": 832000,
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/v1_low.mp4"
+         },
+         {
+          "bit_rate": 2176000,
+          "content_type": "video/mp4",
+          "url": "https://video.twimg.com/v1_high.mp4"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   }
+  ],
+  "author": {
+   "screen_name": "tester",
+   "name": "Test Author",
+   "id": "1"
+  }
+ },
+ "https://api.fxtwitter.com/2/status/20": {
+  "code": 200,
+  "status": {
+   "type": "status",
+   "url": "https://x.com/jack/status/20",
+   "id": "20",
+   "text": "just setting up my twttr",
+   "raw_text": {
+    "text": "just setting up my twttr",
+    "facets": []
+   },
+   "author": {
+    "screen_name": "jack",
+    "name": "jack",
+    "id": "12"
+   },
+   "media": {}
+  }
+ }
+}
